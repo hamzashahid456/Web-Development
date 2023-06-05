@@ -1,0 +1,11 @@
+virtualenv -p python3.6 pythonApp
+
+source pythonApp/bin/activate
+
+You can save your packages already installed with pip like this:
+
+pip freeze > requirements.txt
+
+and then load them in your virtual env (once you have loaded it) like this:
+
+pip install -r requirements.txt

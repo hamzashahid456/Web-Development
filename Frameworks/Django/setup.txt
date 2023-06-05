@@ -1,0 +1,52 @@
+sudo apt-get install python3-pip
+
+pip install -U setuptools   # can be required
+
+pip install virtualenv
+
+# for making virtual environment
+virtualenv py1
+
+# To activate that environment
+source py1/bin/activate
+
+pip install django
+
+django-admin startproject djangoproject    # "djnagoproject" is project name (It will create folder in current directory)
+
+cd djangoproject
+
+sudo apt-get install libpq-dev python-dev   # Might be required
+
+pip install mysqlclient     # for database purpose (on mysql)
+
+python manage.py migrate    # It will create database automatically in mysql
+
+python manage.py runserver
+
+# to create admin user of django
+python manage.py createsuperuser --username=hamza --email=hamzashahid4566@gmail.com
+
+python manage.py startapp posts
+
+pip install pylint
+
+pip install django
+
+pip install djangorestframework
+
+python manage.py runserver
+
+
+
+
+
+
+
+
+
+
+
+
+
+

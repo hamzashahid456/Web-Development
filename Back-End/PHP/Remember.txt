@@ -1,0 +1,9 @@
+Keep this folder near phpmyadmin ( "htdocs" folder )
+
+In liux if we have not installed XAMPP and have installed seperately
+then address will be
+
+var/www/html/
+
+URL to run this application is: 
+localhost/foldername
